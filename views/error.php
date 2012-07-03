@@ -1,6 +1,5 @@
 <?php foreach ($messages as $message): ?>
-<div class="alert alert-error">
-	<a class="close" data-dismiss="alert" href="#">&times;</a>
+<div class="nNote nFailure">
 	<p><?php echo $message; ?></p>
 </div>
 <?php endforeach ?>
